@@ -9,5 +9,6 @@
 **HTML에서 JS 로드하기**
 
 onclick >> 클릭했을 때 JS코드가 브라우저에 의해서 실행 <이벤트>
+
 ex) onclick="alert('Hello world')"
-                    -----------  >> JS
+                     -----------  >> JS
