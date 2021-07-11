@@ -44,3 +44,6 @@ document.getElementsByTagName('img'); // img태그의 이름을 가지는 elemen
 여러개의 값을 가질려면 JS에서는 return 값으로 배열을 사용하면 된다. imgs, imgs[0]
 
 //imgs[0].style.width='300px'; 이미지의 CSS부분의 크기를 300px로 잡는다//
+![image](https://user-images.githubusercontent.com/78002734/125192058-baa50400-e280-11eb-95ce-dca671fbabf0.png)
+
+
