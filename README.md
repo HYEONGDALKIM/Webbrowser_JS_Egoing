@@ -1,5 +1,7 @@
 # Webbrowser_JS_Egoing
- ### JavaScript 는 WB, Node.js, GAS(호스트환경)를 제어하는 방법
+### Sublime Text2, 구글 크롬 개발도구 
+ #### JavaScript 는 WB, Node.js, GAS(호스트환경)를 제어하는 방법
+ 
   
 HTML과 CSS는 정적인 언어이다.
 
