@@ -54,4 +54,7 @@ window는 전역객체, window, frame  //   가장 중요한 것은 property : d
 window.document , documnet  정확하게 같은 의미가 된다. 
 
 Document 는 DOM - (Document object model) 을 가진다. 
+
 BOM - Browser object model // navigator, screen, location, frames, historym XMLHttpRequest
+
+JavaScript Core // Object, Array, Function
