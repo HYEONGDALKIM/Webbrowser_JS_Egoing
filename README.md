@@ -35,5 +35,6 @@ JS 파일안에 html안에 있던 script부분의 JS부분만 분리해서 저�
 window.onload = function(){ 여기안에 넣어주면 에러가 사라진다. 
 
 **Object Model**
+
 브라우저가 JS로 제어할 수 있도록 브라우저의 여러구성요소들을 객체로 만들어서 제공해주는 것이다.
 
