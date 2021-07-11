@@ -1,5 +1,5 @@
 # Webbrowser_JS_Egoing 
-#### Sublime Text2, 구글 크롬 개발도구 
+#### -Sublime Text2, 구글 크롬 개발도구 
 
  ### JavaScript 는 WB, Node.js, GAS(호스트환경)를 제어하는 방법
  #### 파일 여는 방법 웹브라우에서 ctrl + O 누르고 디렉터리로 이동한 후 파일을 클릭.
