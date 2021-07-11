@@ -71,6 +71,7 @@ Browser Object Model
 #### >> 사용자와 커뮤니케이션 하기
 
 **alert** - 경고창, 사용자에게 정보제공, 디버깅등의 용도
+![image](https://user-images.githubusercontent.com/78002734/125197190-a9b3bd00-e297-11eb-91c1-38865abf527b.png)
 
 최근에는 console.log 를 많이 써서 디버깅의 용도로는 잘 쓰지 않는다.
 
