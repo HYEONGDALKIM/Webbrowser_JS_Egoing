@@ -94,4 +94,19 @@ alert(location) = alert(location.toString());
 
 - URL Parsing
 location 객체는 URL을 의미에 따라서 별도의 프로퍼티로 제공하고 있다. 
+
 console.log(location.protocol, location.host, location.port, location.pathname, location.search, location.hash)
+
+- URL 변경하기 
+
+현재 문서를 http://egoing.net으로 이동한다. // 상황에 이동시켜야하는 경우에
+
+location.href = 'http://egoing.net';
+
+아래와 같은 방법도 같은 효과를 낸다. 
+
+location = 'http://egoing.net';
+
+아래는 현재 문서를 리로드하는 간편한 방법을 제공한다.
+
+location.reload(); ,   location.href = location.href
