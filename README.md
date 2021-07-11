@@ -81,3 +81,17 @@ Browser Object Model
 **prompt** - 사용자가 입력한 값을 받아서 JS가 얻어 낼 수 있는 기능 
 
 ![image](https://user-images.githubusercontent.com/78002734/125197155-8db01b80-e297-11eb-9a1b-ef40c3f8af21.png)
+
+#### >> Location 객체
+
+- 현재 윈도우의 URL을 알려주는 객체
+
+console.log(location.toString(), location.href); 
+
+console.log(location)
+
+alert(location) = alert(location.toString());
+
+- URL Parsing
+location 객체는 URL을 의미에 따라서 별도의 프로퍼티로 제공하고 있다. 
+console.log(location.protocol, location.host, location.port, location.pathname, location.search, location.hash)
