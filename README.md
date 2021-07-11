@@ -58,3 +58,10 @@ Document 는 DOM - (Document object model) 을 가진다.
 BOM - Browser object model // navigator, screen, location, frames, historym XMLHttpRequest
 
 JavaScript Core // Object, Array, Function
+
+-----------------------------------------------------------------------------------------------------------
+## **BOM** 
+
+Browser Object Model 
+
+#### >> 전역객체 Window
