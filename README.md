@@ -21,4 +21,8 @@ ex) onclick="alert('Hello world')"
 script까지는 HTML문법이고 script안에 내용을 자바스크립트로 해석해서 실행한다.
 
 #### >> JS파일을 외부 파일로 분리
-<script src= ""></script> // 소스코드 위치경로,  ./ 현재파일과 같은 디렉토리 안에있는
+html 파일에서 다음과 같이 JS소스코드 위치경로를 잡아주고
+
+<script src= "./script.js"></script> // 소스코드 위치경로,  ./ 현재파일과 같은 디렉토리 안에있는
+
+Js파일안에 html안에 있던 script부분의 JS부분만 분리해서 저장
