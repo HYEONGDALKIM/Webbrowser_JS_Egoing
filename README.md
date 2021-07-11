@@ -16,13 +16,5 @@ onclick >> 클릭했을 때 JS코드가 브라우저에 의해서 실행 <이벤
 ex) onclick="alert('Hello world')"
      
 #### <script>
- <script>
-        var hw = document.getElementById('hw');
-      
-        hw.addEventListener('click', function(){          // 클릭을 했을때 함수를 실행한다. 
-          
-          alert('Hello world');
-      
-          })
-  
- </script>
+script까지는 HTML문법이고 script안에 내용을 자바스크립트로 해석해서 실행한다.
+
