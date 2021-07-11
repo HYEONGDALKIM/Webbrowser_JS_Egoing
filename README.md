@@ -65,3 +65,18 @@ JavaScript Core // Object, Array, Function
 Browser Object Model 
 
 #### >> 전역객체 Window
+
+함수에 속해 있지않으면 모두 window 안에 있는 것 이므로 window.a 나 a 나 같음
+
+#### >> 사용자와 커뮤니케이션 하기
+
+**alert** - 경고창, 사용자에게 정보제공, 디버깅등의 용도
+
+최근에는 console.log 를 많이 써서 디버깅의 용도로는 잘 쓰지 않는다.
+
+**confirm** -  확인을 누르면 true, 취소를 누르면 false를 리턴한다.
+![image](https://user-images.githubusercontent.com/78002734/125197164-94d72980-e297-11eb-9300-aa2671f02531.png)
+
+**prompt** - 사용자가 입력한 값을 받아서 JS가 얻어 낼 수 있는 기능 
+
+![image](https://user-images.githubusercontent.com/78002734/125197155-8db01b80-e297-11eb-9a1b-ef40c3f8af21.png)
