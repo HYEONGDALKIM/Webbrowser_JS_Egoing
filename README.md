@@ -20,3 +20,5 @@ ex) onclick="alert('Hello world')"
 #### >> script
 script까지는 HTML문법이고 script안에 내용을 자바스크립트로 해석해서 실행한다.
 
+#### >> JS파일을 외부 파일로 분리
+<script src= ""></script> // 소스코드 위치경로 
