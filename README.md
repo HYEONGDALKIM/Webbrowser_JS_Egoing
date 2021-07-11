@@ -12,11 +12,11 @@
 **HTML에서 JS 로드하기**
 
 
-#### inline
+#### >>inline
      
 onclick >> 클릭했을 때 JS코드가 브라우저에 의해서 실행 <이벤트>
 ex) onclick="alert('Hello world')"
      
-#### <script>
+#### >>script
 script까지는 HTML문법이고 script안에 내용을 자바스크립트로 해석해서 실행한다.
 
