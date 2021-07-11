@@ -18,7 +18,11 @@ ex) onclick="alert('Hello world')"
 #### <script>
  <script>
         var hw = document.getElementById('hw');
+      
         hw.addEventListener('click', function(){          // 클릭을 했을때 함수를 실행한다. 
-            alert('Hello world');
-        })
-    </script>
+          
+          alert('Hello world');
+      
+          })
+  
+ </script>
