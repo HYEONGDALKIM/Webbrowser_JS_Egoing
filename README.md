@@ -116,4 +116,15 @@ location.reload(); ,   location.href = location.href
 
 - cross browsing
 - console.dir(navigatior) : 브라우저의 특성에 대한 정보를 알고 싶을때 원하는 property를 찾으면 됌.
--
+-appName
+-웹브라우저의 이름이다. IE는 Microsoft Internet Explorer, 파이어폭스, 크롬등은 Nescape로 표시한다.
+
+-appVersion
+-브라우저의 버전을 의미한다. 필자의 현재 브라우저 정보는 아래와 같다.
+
+-userAgent
+-브라우저가 서버측으로 전송하는 USER-AGENT HTTP 헤더의 내용이다. appVersion과 비슷하다.
+
+-platform
+-브라우저가 동작하고 있는 운영체제에 대한 정보다.
+
