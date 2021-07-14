@@ -110,3 +110,10 @@ location = 'http://egoing.net';
 아래는 현재 문서를 리로드하는 간편한 방법을 제공한다.
 
 location.reload(); ,   location.href = location.href
+
+
+#### >> Navigator 객체
+
+- cross browsing
+- console.dir(navigatior) : 브라우저의 특성에 대한 정보를 알고 싶을때 원하는 property를 찾으면 됌.
+-
