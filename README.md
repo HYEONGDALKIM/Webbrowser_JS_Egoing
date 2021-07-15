@@ -128,3 +128,37 @@ location.reload(); ,   location.href = location.href
 -platform
 -브라우저가 동작하고 있는 운영체제에 대한 정보다.
 
+
+#### >> 창 제어
+-window.open 메소드는 새 창을 생성한다.
+-현대의 브라우저는 대부분 탭을 지원하기 때문에 window.open은 새 창을 만든다. 
+
+-첫번째 인자는 새 창에 로드할 문서의 URL이다. 인자를 생략하면 이름이 붙지 않은 새 창이 만들어진다.
+     
+     <input type="button" onclick="open1()" value="window.open('demo2.html');" />
+        
+        function open1(){
+       window.open('alert.html'); }
+-두번째 인자는 새 창의 이름이다. _self는 스크립트가 실행되는 창을 의미한다.
+     
+     <input type="button" onclick="open2()" value="window.open('demo2.html', '_self');" />
+     
+     function open2(){
+    window.open('demo2.html', '_self');}
+-_blank는 새 창을 의미한다.
+
+         <input type="button" onclick="open3()" value="window.open('demo2.html', '_blank');" />
+         
+         function open3(){
+          window.open('demo2.html', '_blank');}
+-창에 이름을 붙일 수 있다. open을 재실행 했을 때 동일한 이름의 창이 있다면 그곳으로 문서가 로드된다.
+
+           <input type="button" onclick="open4()" value="window.open('demo2.html', 'ot');" />
+           function open4(){
+           window.open('demo2.html', 'ot');}
+-세번재 인자는 새 창의 모양과 관련된 속성이 온다.
+     
+           <input type="button" onclick="open5()" value="window.open('demo2.html', '_blank', 'width=200, height=200, resizable=yes');" />
+           
+               function open5(){
+    window.open('demo2.html', '_blank', 'width=200, height=200, resizable=no');}
