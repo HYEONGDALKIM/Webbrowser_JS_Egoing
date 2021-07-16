@@ -164,3 +164,13 @@ location.reload(); ,   location.href = location.href
     window.open('demo2.html', '_blank', 'width=200, height=200, resizable=no');}
 
 ## **DOM** 
+
+Document Object Model 
+
+- 웹페이지를 자바스크립트로 제어하기 위한 객체모델
+- window객체의 document 프로퍼티를 통해서 사용할 수 있다.  
+- 문서 제어
+
+####document.getElementsByTagName
+- TagName안의 Elements들을 얻는 것
+- 인자로 전달된 태그명에 해당하는 객체들을 찾아서 그 리스트를 NodeList라는 유사 배열에 담아서 반환한다.
