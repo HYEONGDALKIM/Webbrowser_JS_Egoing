@@ -162,3 +162,5 @@ location.reload(); ,   location.href = location.href
            
                function open5(){
     window.open('demo2.html', '_blank', 'width=200, height=200, resizable=no');}
+
+## **DOM** 
