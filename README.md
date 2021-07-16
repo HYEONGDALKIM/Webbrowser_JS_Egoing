@@ -171,6 +171,8 @@ Document Object Model
 - window객체의 document 프로퍼티를 통해서 사용할 수 있다.  
 - 문서 제어
 
+#### >> 제어 대상찾기
+
 #### document.getElementsByTagName
 - TagName안의 Eleme`nts들을 얻는 것
 - 인자로 전달된 태그명에 해당하는 객체들을 찾아서 그 리스트를 NodeList라는 유사 배열에 담아서 반환한다.
@@ -186,3 +188,12 @@ Document Object Model
 
 #### document.querySelectorAll
 - document.querySelector 와 동일하지만 모든객체를 조회한다는 점에서 차이점이 있다.
+
+
+#### >> jQuery (라이브러리의 일종?)
+- jQuery는 DOM을 내부에 감추고 보다 쉽게 웹페이지를 조작할 수 있도록 돕는 도구
+- ![image](https://user-images.githubusercontent.com/78002734/125951463-562e679c-5c85-4e6f-9e2d-e27ec06ba37d.png)
+- ![image](https://user-images.githubusercontent.com/78002734/125951498-d701f2a7-f3b0-4dab-b3a5-6148f78de507.png)
+
+
+
