@@ -184,5 +184,5 @@ Document Object Model
 ####document.querySelector 
 - css 선택자의 문법을 이용해서 객체를 조회 
 
-#### document.querySelectorAll
+####document.querySelectorAll
 - document.querySelector 와 동일하지만 모든객체를 조회한다는 점에서 차이점이 있다.
