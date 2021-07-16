@@ -172,5 +172,17 @@ Document Object Model
 - 문서 제어
 
 ####document.getElementsByTagName
-- TagName안의 Elements들을 얻는 것
+- TagName안의 Eleme`nts들을 얻는 것
 - 인자로 전달된 태그명에 해당하는 객체들을 찾아서 그 리스트를 NodeList라는 유사 배열에 담아서 반환한다.
+
+####document.getElementsByClassName
+- class 속성의 값 'active'를 기준으로 객체를 조회할수도 있다.
+
+####document.getElementById
+- id값을 기준으로 객체를 조회한다. 성능면에서 가장 우수하고 많이사용한다.
+
+####document.querySelector 
+- css 선택자의 문법을 이용해서 객체를 조회 
+
+#### document.querySelectorAll
+- document.querySelector 와 동일하지만 모든객체를 조회한다는 점에서 차이점이 있다.
