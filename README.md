@@ -196,4 +196,20 @@ Document Object Model
 - ![image](https://user-images.githubusercontent.com/78002734/125951498-d701f2a7-f3b0-4dab-b3a5-6148f78de507.png)
 
 
+![image](https://user-images.githubusercontent.com/78002734/126031091-12edb4de-1a9c-4bf0-900f-607f1ed02663.png)
 
+#### >> HTMLElement
+- 모든 엘리먼트들은 HTMLElement를 상속 받고 있다. 
+- HTMLLIElement
+- HTMLAnchroElement
+- HTMLInputElement
+- document.getElementById : 리턴 데이터 타입은 HTMLLIELement
+- document.getElementsByTagName : 리턴 데이터 타입은 HTMLCollection
+- 실행결과가 하나인 경우 HTMLLIELement, 복수인 경우 HTMLCollection을 리턴하고 있다. 
+![image](https://user-images.githubusercontent.com/78002734/126032950-bfb4dbb2-19cb-4476-94af-5b38e26f5fac.png)
+
+#### >> HTMLCollection
+
+- 리턴결과가 복수인 경우에 사용하게 되는 객체이다.
+- 유사배열로 배열과 비슷한 사용방법을 가지고 있지만 배열은 아니다.
+- 실시간으로 변경된다. (lis )
